@@ -4,7 +4,7 @@ const KnightMoves = () => {
         <div className="flex flex-col justify-center w-full max-w-[1100px] gap-4 mx-4 mt-8 mb-8">
             <h1 className="text-3xl sm:text-5xl font-bold">Knight Moves</h1>
             <p><strong>Tech: </strong> Vanilla JS, CSS</p>
-            <p><strong>Live link: </strong> <a className="text-orange-500 hover:underline" href="https://jimmybowcott.github.io/knight-moves">https://jimmybowcott.github.io/knight-moves</a></p>
+            <p><strong>Live link: </strong> <a className="text-orange-500 hover:underline" href="https://jimmybowcott.github.io/knight-moves" target="_blank">https://jimmybowcott.github.io/knight-moves</a></p>
             <p>Knight moves is a knight pathfinder which finds the shortest path to a pawn. This was my first implementation of a BFS algorithm and I figured it could do with an interactive UI alongside it. It is written in vanilla JS/CSS.</p>
             <video controls class="w-full h-auto max-w-[1100px] self-center">
                 <source src="./assets/media/knight-moves.mp4" type="video/mp4" />
