@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Minecraft';
+  src: url('/portfolio/assets/font/Minecraft-Italic.woff2') format('woff2'),
+      url('/portfolio/assets/font/Minecraft-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Minecraft';
+  src: url('/portfolio/assets/font/Minecraft-Bold.woff2') format('woff2'),
+      url('/portfolio/assets/font/Minecraft-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Minecraft';
+  src: url('/portfolio/assets/font/Minecraft-Regular.woff2') format('woff2'),
+      url('/portfolio/assets/font/Minecraft-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Minecraft';
+  src: url('/portfolio/assets/font/Minecraft-BoldItalic.woff2') format('woff2'),
+      url('/portfolio/assets/font/Minecraft-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+.pixelated {
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: pixelated;
+}
+
+html, body {
+  font-family: 'Minecraft', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.transition-width {
+  transition: width 0.25s ease;
+}
