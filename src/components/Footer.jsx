@@ -16,7 +16,7 @@ const Footer = () => {
                     <div className="flex flex-row gap-4">
                         <HeaderIcon src="github" href="https://github.com/jimmybowcott" />
                         <HeaderIcon src="linkedin" href="https://www.linkedin.com/in/jimmy-bowcott-3b58ab25b/" />
-                        <HeaderIcon src="mailto" href="mailto:bowcottjames@gmail.com" />
+                        <HeaderIcon src="mailto" href="mailto:bowcottjames&#64;gmail&#46;com" />
                     </div>
                 </div>
             </div>
