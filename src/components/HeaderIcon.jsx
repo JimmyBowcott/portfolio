@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import { useState } from 'react';
 
 const HeaderIcon = ({src, href}) => {
@@ -11,11 +10,11 @@ const HeaderIcon = ({src, href}) => {
     };
 
     return (
-        <Link to={href}>
+        <a href={href} target='_blank'>
             <img src={`${isHovered ? "./assets/icons/hover/" : "./assets/icons/"}${src}.png`} alt=""
              onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} 
              className="pixelated h-8 w-8"/>
-        </Link>
+        </a>
     );
 }
 

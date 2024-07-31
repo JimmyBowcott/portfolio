@@ -3,7 +3,7 @@ const Pixterest = () => {
         <div className="flex flex-col justify-center w-full max-w-[1100px] gap-4 mx-4 mt-8 mb-8">
             <h1 className="text-3xl sm:text-5xl font-bold">Pixterest</h1>
             <p><strong>Tech: </strong> React, Tailwind</p>
-            <p><strong>Live link: </strong> <a className="text-orange-500 hover:underline" href="https://jimmybowcott.github.io/pixterest">https://jimmybowcott.github.io/pixterest</a></p>
+            <p><strong>Live link: </strong> <a className="text-orange-500 hover:underline" href="https://jimmybowcott.github.io/pixterest"  target="_blank">https://jimmybowcott.github.io/pixterest</a></p>
             <p>Pixterest is a front-end Pinterest clone designed specifically for pixel art. Built with React, it features DeviantArt's RSS API to fetch posts which can be saved locally. It is designed to be fully responsive for every screen size. My inspiration for this project came from wanting to make a challenging website with my own personal spin.</p>
             <video controls class="w-full h-auto max-w-[1100px] self-center">
                 <source src="./assets/media/pixterest.mp4" type="video/mp4" />
