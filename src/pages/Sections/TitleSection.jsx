@@ -7,7 +7,7 @@ const TitleSection = () => {
             <div className="flex flex-grow h-full flex-col justify-center gap-8 p-8">
                 <div className="flex flex-row">
                     <h1 className="text-5xl sm:text-7xl mr-4 max-w-[1100px] w-full">Hi, I'm
-                    <span className="text-orange-500"> Jimmy Bowcott</span>, a front-end developer.</h1>
+                    <span className="text-orange-500"> Jimmy Bowcott</span>, software developer.</h1>
                 </div>
                 <div className="flex flex-row gap-6">
                     <HeaderIcon src="github" href="https://github.com/jimmybowcott" />
