@@ -12,8 +12,8 @@ const HeaderIcon = ({src, href}) => {
     return (
         <a href={href} target='_blank'>
             <img src={`${isHovered ? "./assets/icons/hover/" : "./assets/icons/"}${src}.png`} alt=""
-             onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} 
-             className="pixelated h-8 w-8"/>
+            onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} 
+            className="pixelated h-8 w-8"/>
         </a>
     );
 }

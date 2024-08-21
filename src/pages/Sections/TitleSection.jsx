@@ -13,7 +13,7 @@ const TitleSection = () => {
                     <HeaderIcon src="github" href="https://github.com/jimmybowcott" />
                     <HeaderIcon src="linkedin" href="https://www.linkedin.com/in/jimmy-bowcott-3b58ab25b/" />
                     <HeaderIcon src="mailto" href="mailto:bowcottjames&#64;gmail&#46;com" />
-                    <HeaderIcon src="cv" href="" />
+                    <HeaderIcon src="cv" href="./assets/CV - Jimmy Bowcott.pdf"/>
                 </div>
                 <p className=" text-lg sm:text-xl max-w-[500px]">Passionate problem-solver 🧩 Strategic thinker ♟️ Creative coder 💻... And I may also have a thing for pixel art.</p>
             </div>

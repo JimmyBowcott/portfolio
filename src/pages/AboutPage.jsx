@@ -4,6 +4,7 @@ const AboutPage = () => {
     return (
         <div className="flex flex-col flex-grow gap-4 text-left px-4 mt-8 mb-8 w-full max-w-[1100px] mx-auto">
             <h1 className="text-4xl sm:text-5xl font-bold">A lifelong tech enthusiast</h1>
+            <p>Looking for my CV? <a className="text-orange-500 hover:underline" href="./assets/CV - Jimmy Bowcott.pdf" target="_blank">Click here.</a></p>
              <h2 className="text-2xl font-bold mt-4">My journey</h2>
              <p>From a young age, I have always loved technology. My fascination began with an old laptop
                 and my interest only grew from there. It was at university, where I earned my first-class engineering degree,
